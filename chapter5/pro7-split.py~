@@ -1,0 +1,14 @@
+def split(filename):
+	n=2
+	new='output'
+	input=open('shihas.txt','r').read().split('\n')
+	x=1
+	for lines in range(0,len(input),n):
+		out=input[lines:lines+n]
+		output=open(new+str(x)+'.txt','w')
+		output.write('\n'.join(out))
+		output.close()
+		x+=1
+		return output	
+split('shihas.txt')
+

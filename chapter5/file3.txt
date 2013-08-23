@@ -1,0 +1,2 @@
+ll and the third element, and so on, until all of the list elements have been handled. This means
+ that our function is called n-1 times if the list contains n elements. The return value of the last call is the 

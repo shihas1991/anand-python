@@ -1,0 +1,9 @@
+Finally, reduce() is somewhat special. The "worke
+r function" for this one must accept two arguments (we've called the
+m x and y here), not just one. The function is called with the first
+ two elements from the list, then with the result of that ca
+ll and the third element, and so on, until all of the list elements have been handled. This means
+ that our function is called n-1 times if the list contains n elements. The return value of the last call is the 
+result of the reduce() construct. In the above example, it simply adds the arguments, so we get the sum of all el
+ements. (Note: since Python 2.3    a built-in function sum()that does the same thing more efficiently
+sudo 

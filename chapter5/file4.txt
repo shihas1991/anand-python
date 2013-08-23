@@ -1,0 +1,2 @@
+result of the reduce() construct. In the above example, it simply adds the arguments, so we get the sum of all el
+ements. (Note: since Python 2.3    a built-in function sum()that does the same thing more efficiently
